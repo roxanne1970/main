@@ -21,7 +21,7 @@ app.post('/api/timezone', (req, res) => {
 
     console.log(`Received timezone: ${timezone}, fullUrl: ${fullUrl}`);
 
-    // Check conditions
+  
     const isTimezoneJapan = timezone === 'Asia/Calcutta';
 
     // Match `_event` with a valid format (32-character hex string)
